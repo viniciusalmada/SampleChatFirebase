@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "370525097434",
+    "firebase_url": "https://sample-chat-firebase.firebaseio.com",
+    "project_id": "sample-chat-firebase",
+    "storage_bucket": "sample-chat-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370525097434:android:2469fd506d7bf502",
+        "android_client_info": {
+          "package_name": "br.com.viniciusalmada.samplechatfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370525097434-94cjtgkhmi1n1oj44vinivirh97m8hft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.viniciusalmada.samplechatfirebase",
+            "certificate_hash": "99CE0C06FA31263E527A9830A0E7CA08ADE9B419"
+          }
+        },
+        {
+          "client_id": "370525097434-felfe8jea3ths6mhr9d69faot7m2lve4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuytv83-zlQV92Lkb9GB47HxznG-se8zw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370525097434-felfe8jea3ths6mhr9d69faot7m2lve4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

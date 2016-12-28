@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name_of_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Room's name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select the friends:" />
+
+    <ListView
+        android:id="@+id/list_friends"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:choiceMode="multipleChoice" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE ROOM"
+        android:onClick="createRoom"/>
+</LinearLayout>
